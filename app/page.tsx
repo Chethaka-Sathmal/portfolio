@@ -14,18 +14,20 @@ export default function Home() {
           </h2>
         </section>
         {/* About me */}
-        <section className="flex flex-col gap-4 mb-8">
-          <p>
+        <section className="flex flex-col gap-4 mb-8 max-w-prose">
+          <p className="leading-relaxed">
             Hello everyone 👋, I&apos;m a self driven novice software developer
             focusing on creating innovative software solutions for everyday
             problems
           </p>
-          <p>
+          <p className="leading-relaxed">
             As a dedicated learner, I thrive on exploring new technologies and
-            crafting clean, efficient code to deliver innovative digital
-            experiences and eager to collaborate with like minded people
+            writing clean, efficient code. I&apos;m eager to collaborate with
+            like-minded people and keep growing through hands-on work.
           </p>
-          <p>Looking forward to work with you 🤗</p>
+          <p className="leading-relaxed">
+            Looking forward to working with you 🤗
+          </p>
         </section>
         {/* My services */}
         <section className="mb-8">
@@ -39,7 +41,7 @@ export default function Home() {
                 </div>
               </CardHeader>
               <CardContent className="text-gray-600">
-                Developed responsive websites using Next.js and React
+                Develop responsive websites using Next.js and React
               </CardContent>
             </Card>
             <Card className="w-full">
@@ -50,7 +52,7 @@ export default function Home() {
                 </div>
               </CardHeader>
               <CardContent className="text-gray-600">
-                Experience building mobile apps with React Native and Expo
+                Experience in building mobile apps with React Native and Expo
               </CardContent>
             </Card>
           </div>
