@@ -47,7 +47,7 @@ export default function ContactsList() {
   };
   return (
     <section>
-      <h3 className="font-semibold mb-4">My Contacts</h3>
+      <h3 className="font-semibold mb-4">Contact me</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-2">
         {contacts.map((item) => (
           <div key={item.label} className="flex items-center gap-2">
