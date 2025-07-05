@@ -16,7 +16,7 @@ export default function Home() {
         {/* About me */}
         <section className="flex flex-col gap-4 mb-8 max-w-prose">
           <p className="leading-relaxed">
-            Hello everyone 👋, I&apos;m a self driven novice software developer
+            Hello everyone 👋, I&apos;m a self driven junior software developer
             focusing on creating innovative software solutions for everyday
             problems
           </p>
